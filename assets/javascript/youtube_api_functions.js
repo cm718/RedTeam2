@@ -14,7 +14,7 @@ $(document).ready(function () {
         "Sad": ["sad ballads", "adele", "sad movie scenes"],
         "Angry": ["had one job", "frustration", "frustrating unsatisfying"],
         "Excited": ["pump up videos", "motivational speeches", "pump up songs"],
-        "Calm": ["lo fi study", "calm strings", "oceans waves"]
+        "Calm": ["lo-fi study", "calm strings", "oceans waves"]
     };
 
     //Change footer display on scrolling up/down
