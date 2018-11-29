@@ -8,13 +8,13 @@ function onYouTubeApiLoad() {
 
 $(document).ready(function () {
 
-    //Search from API related to mood 
+    //Search from API related to mood
     var dict = {
-        "Happy": ["classic vines", "epic fails", "babies and puppies"],
-        "Sad": ["sad ballads", "adele", "sad movie scenes"],
-        "Angry": ["had one job", "frustration", "frustrating unsatisfying"],
-        "Excited": ["pump up videos", "motivational speeches", "pump up songs"],
-        "Calm": ["lo-fi study", "calm strings", "oceans waves"]
+        "Happy": ["classic-vines", "epic-fails", "puppies-and-babies"],
+        "Sad": ["sad-ballads", "adele", "sad-movie-scenes"],
+        "Angry": ["you-had-one-job", "frustration", "frustrating unsatisfying"],
+        "Excited": ["pump-up videos", "motivational-speeches", "pump-up music"],
+        "Calm": ["lo-fi study", "calm-strings", "oceans-waves"]
     };
 
     //Change footer display on scrolling up/down
@@ -35,6 +35,7 @@ $(document).ready(function () {
         var y = x[Math.floor(Math.random() * 3)];
 
         var searchItem = encodeURIComponent(y);
+        console.log(searchItem);
         var youtubeReq = gapi.client.youtube.search.list({
             part: 'snippet',
             q: searchItem,
