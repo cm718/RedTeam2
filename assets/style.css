@@ -249,9 +249,15 @@ body{
         font-size: 20px;
         
     }
+
+    #mood{
+        width: 90%;
+        margin: 10% auto;
+    }
+
     #weather{
-        float: right;
-        font-size: 10px;
+        width: 90%;
+        margin: 10% auto;
     }
 
     .vids{
