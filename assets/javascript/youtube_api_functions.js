@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     //Search from API related to mood 
     var dict = {
-        "Happy": ["classic-vines", "epic-fails", "babies-and-puppies"],
+        "Happy": ["classic-vines", "stand-up comedy", "babies-and-puppies"],
         "Sad": ["sad-ballads", "adele", "sad-movie-scenes"],
         "Angry": ["had-one-job", "frustration", "frustrating-unsatisfying"],
         "Excited": ["pump-up-videos", "motivational-speeches", "pump-up songs"],
