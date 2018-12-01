@@ -39,7 +39,7 @@ $(document).ready(function () {
             part: 'snippet',
             q: searchItem,
             type: 'video',
-            maxResults: 4,
+            maxResults: 3,
         });
         youtubeReq.execute(getTheVideo);
         $("#weather").show(1700);
